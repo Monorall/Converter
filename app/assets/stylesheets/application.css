@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+
+
+.amount-field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.currency-radio {
+    display: none;
+}
+
+label[for=from_currency_USD]::before {
+    content: "\f155";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_EUR]::before {
+    content: "\f153";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_RUB]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_UZS]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_UAH]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_KZT]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_PLN]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
+
+label[for=from_currency_KGS]::before {
+    content: "\f158";
+    font-family: "Font Awesome 5 Free", serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000;
+    margin-right: 5px;
+}
